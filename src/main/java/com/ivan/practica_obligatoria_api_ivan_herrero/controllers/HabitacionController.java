@@ -41,7 +41,7 @@ public class HabitacionController {
     }
 
     @PutMapping("/{idHabitacion}/ocupada")
-    public Habitacion marcarHabitacion(@PathVariable int idHabitacion) {
-        return habitacionService.marcarHabitacion(idHabitacion);
+    public Habitacion ocuparHabitacion(@PathVariable int idHabitacion) {
+        return habitacionService.ocuparHabitacion(idHabitacion);
     }
 }

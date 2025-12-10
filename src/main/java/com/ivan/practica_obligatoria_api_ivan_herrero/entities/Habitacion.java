@@ -53,7 +53,7 @@ public class Habitacion {
     public void setDesayuno(boolean desayuno) {this.desayuno = desayuno;}
 
     public boolean isOcupada() {return ocupada;}
-    public void setOcupado(boolean ocupada) {this.ocupada = ocupada;}
+    public void setOcupada(boolean ocupada) {this.ocupada = ocupada;}
 
     public Hotel getHotel() {return hotel;}
     public void setHotel(Hotel hotel) {this.hotel = hotel;}
